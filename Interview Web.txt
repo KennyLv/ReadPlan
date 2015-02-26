@@ -11,3 +11,130 @@
 ⑥ 为什么有闭包
 
 ⑦ 延迟请求
+
+① 作用域问题
+PS：其实是settimeout会抛往主干流程外......
+var a = 6;
+setTimeout(function () {
+    alert(a);
+    a = 666;
+}, 1000);
+a = 66;
+
+② 语义化标签
+1）tite与h1的区别
+2）b与strong的区别
+3）i与em的区别
+
+③ 事件绑定
+addEventListener，第三个参数是用来表示事件是以事件冒泡还是事件捕获这个各位都知道！但是他问的问题是：
+我们给一个dom同时绑定两个点击事件，一个用捕获，一个用冒泡，你来说下会执行几次事件，然后会先执行冒泡还是捕获！！！
+
+④ CSS选择器问题
+考察优先级问题，反正会出很多莫名其妙的变形，比如将style标签写在body后与body前有什么区别，比如同一dom应用多个class其应该如何表现，比如class a定义颜色为blue，class b定义颜色为red，同时应用到dom上，dom作何显示。。。
+
+
+javascript中的this；
+
+javascript中的冒泡机制
+
+javascript兼容性问题
+
+① 在标准的事件绑定中绑定事件的方法函数为 addEventListener,而IE使用的是attachEvent
+② 标准浏览器采用事件捕获的方式对应IE的事件冒泡机制（即标准由最外元素至最内元素或者IE由最内元素到最外元素）最后标准方亦觉得IE这方面的比较合理，所以便将事件冒泡纳入了标准，这也是addEventListener第三个参数的由来，而且事件冒泡作为了默认值。
+③ 事件处理中非常有用的event属性获得亦不相同，标准浏览器是作为参数带人，而ie是window.event方式获得，获得目标元素ie为e.srcElement 标准浏览器为e.target
+
+④ 然后在ie中是不能操作tr的innerHtml的
+
+⑤ 然后ie日期函数处理与其它浏览器不大一致，比如： var year= new Date().getYear(); 在IE中会获得当前年，但是在firefox中则会获得当前年与1900的差值。
+
+⑥  获得DOM节点的方法有所差异，其获得子节点方法不一致。
+IE：parentElement parentElement.children 
+Firefox：parentNode parentNode.childNodes 
+childNodes的下标的含义在IE和Firefox中不同，Firefox使用DOM规范，childNodes中会插入空白文本节点。
+一般可以通过node.getElementsByTagName()来回避这个问题。
+
+当html中节点缺失时，IE和Firefox对parentNode的解释不同。例如:
+<form>  <table>   <input/>  </table> </form> 
+IE：input.parentNode的值为空节点 
+Firefox：input.parentNode的值为form 
+解决方法：Firefox中节点没有removeNode方法，必须使用如下方法 node.parentNode.removeChild(node)
+
+⑦ 关于AJAX的实现上亦有所不同；
+
+CSS兼容
+/* CSS属性级Hack */ 
+/* IE条件注释Hack */ 
+<!--[if IE 6]>此处内容只有IE6.0可见<![endif]--> 
+1、问题：在IE6下如果某个标签使用了float属性，同时设置了其外补丁“margin:10px 0 0 10px”可以看出，上边距和左边距同样为10px，但第一个对象距左边有20px。
+2、解决办法：当将其display属性设置为inline时问题就都解决了。
+
+margin双布局可以说是IE6下经典的bug之一。产生的条件是：block元素+浮动+margin。
+
+HTML
+① 语义化相关
+② 块级元素与行内元素
+③ 几个常用标签以及其解释
+
+CSS
+① BFC相关知识点
+② float相关知识点
+③ 浏览器兼容性问题
+④ reflow
+
+JS
+① 闭包
+②、③ 原型与作用域相关知识点
+④ js优化问题
+
+综合
+① 简述前端MVC
+② web前端优化详解
+③ 编程题，实现回到顶部功能
+
+① javascript绑定事件的方式
+② javascript事件对象
+③ 自定义事件
+④ 如何触发自定义事件
+⑤ zepto/jquery事件机制
+⑥ 解决移动端300ms延迟
+⑦ ios android事件差异
+⑧ 事件冒泡/捕获机制以及鬼点击
+⑨ javascript事件底层实现......
+
+以CSS来说，一个position就够了
+① Position的各种属性值
+② 行内元素块级元素
+③ 行高问题
+④ fixed在移动端的问题
+⑤ 由fixed引导至viewport
+⑥ 缩放等等问题......
+
+
+源码阅读
+
+第三个阶段当然是读源码了，一定要读源码，而且必须好好读！！！这里尤其推荐读自己熟悉并且不太包含思想的源码
+
+比如我上个星期看了下backbone就搞得莫名其妙的，原因是没有用过，这里推荐几个库：
+
+Zepto
+
+zepto与jquery类似，说白了就是借鉴，但是zepto很是轻便，读起来轻松，但是首次读若是没有半个月的话基本就是没读（不考虑神人）
+
+因为工作后很少专门有时间去读源码，读的时候要细细的读，看不懂的地方就反复看，慢慢的就全部清晰了
+
+zepto读完后，整个js的水平会看似上升一大截，这个时候再加紧来点经验就稳稳的前端入门了
+
+underscore
+
+第二个推荐的库是underscore，这个库比zepto还要简单，建议好好读下，务必读明白，不要不懂装懂
+
+Fastclick
+
+若是有移动端编程经验的朋友，建议好好的读下这个库，写的非常不错，完了后会让你对移动端的事件兼容有深入的理解
+
+iScroll
+
+与Fastclick类似的库
+
+初级程序员读以上几个库就差不多了，而且建议花一到两个月详细的研究一个库，并且将里面的思想用于项目中去，这样才能真正的吸收
