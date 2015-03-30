@@ -24,6 +24,15 @@
 <meta content="2004-01-23" property="og:article:modified_time">
 
 <link href="article.css" rel="stylesheet" type="text/css">
+
+<style>     
+@media print {   
+	.noprint {    
+		opacity: 0;
+	}   
+}   
+</style>  
+
 </head>
 
 <body><div id="banner">
@@ -78,7 +87,7 @@
 </div>
 
 <div id="content">
-<h1>Inversion of Control Containers and the Dependency Injection
+<h1 class="noprint">Inversion of Control Containers and the Dependency Injection
 	pattern</h1>
 
 <p class="abstract"><i>In the Java community there's been a rush of lightweight
@@ -91,7 +100,7 @@ into how this pattern works, under the more specific name of
 alternative. The choice between them is less important than the
 principle of separating configuration from use.</i></p>
 
-<div class="frontMatter">
+<div class="frontMatter noprint">
 <div class="frontLeft">
 <p class="date">23 January 2004</p>
 
