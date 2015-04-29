@@ -1,0 +1,49 @@
+/*
+@import url("//fonts.useso.com/css?family=Lato:400,400italic");
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url("font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'), url("font/fontawesome-webfont.woff") format('woff'), url("font/fontawesome-webfont.ttf") format('truetype'), url("font/fontawesome-webfont.svg#FontAwesomeRegular") format('svg');
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*
+  background: url("http://yezi-img.stor.sinaapp.com/js8/bg.jpg") fixed repeat center top #f0f0f0;
+  line-height: 1.75em;
+  text-shadow: 0 0 1px transparent;
+  */
+  background-color: #12FF93;
+  color: #6F10BA;
+  font-family: sans-serif, cor, "Microsoft YaHei", tahoma;
+  font-size: 16px;
+}
+
+
+h3 {
+  font-size: 1.3em;
+  margin: 10px 0px 2px 0px;
+  background-color: cadetblue;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: #0B1362;
+  line-height: 26px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+dl{
+	margin: 10px 40px;
+	background-color: lightgrey;
+	border: 1px solid cadetblue;
+}
+
+
