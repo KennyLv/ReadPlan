@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+</head>
+<body>
+
+
+				<h1><a href="http://www.kuqin.com/language/20120325/319416.html" target="_blank"  >动态样式语言Scss&Less介绍与区别</a></h1>
+
+				
+				
+				<!-- PostContent begin -->
+				<div class="entry">
+					<div class="entrycontent">
+					
+
+<h4>一. Sass/Scss&amp;Less是什么？</h4>
+<p><a target="_blank" href="http://sass-lang.com/">Sass</a> (Syntactically Awesome Stylesheets)是一种动态样式语言，语法跟css一样(但多了些功能)，比css好写，而且更容易阅读。Sass语法类似与Haml，属于缩排语法（makeup），用意就是为了快速写Html和Css。</p>
+<p><a target="_blank" href="http://www.lesscss.org/">Less</a>一种动态样式语言. 将CSS赋予了动态语言的特性，如变量，继承，运算， 函数. LESS 既可以在客户端上运行 (支持IE 6+, Webkit, Firefox)，也可一在服务端运行 (借助 Node.js)。less英文站需要翻墙，也可以访问<a target="_blank" href="http://www.lesscss.net/">中文站</a></p>
+
+
+<p><strong>Sass与Scss有什么差别</strong></p>
+<p>Sass原先跟Haml一样的缩排语法，对于写惯Css的前端来说是很不直观的，也不能将原来的Css加到Sass里面，因此Sass改良了语法，Sass 3就变成了Scss(Sassy CSS)。与原来的语法兼容，只是用{}取代了原来的缩进。</p>
+<p><strong>Sass</strong></p>
+<pre class="brush:css">
+.content
+  margin:10px auto
+  h1
+    font-size:24px;
+</pre>
+<p><strong>Scss</strong></p>
+<pre>
+.content{
+  margin:10px auto
+  h1{
+    font-size:24px;
+  }
+}
+</pre>
+<h4>二. Sass/Scss&amp;Less区别？</h4>
+<p>1.Sass是基于Ruby的，是在服务端处理的，而Less是需要引入less.js来处理Less代码输出Css到浏览器，也可以在开发环节使用Less，然后编译成Css文件，直接放到项目中，也有 <a target="_blank" href="http://incident57.com/less/">Less.app</a>、<a target="_blank" href="http://wearekiss.com/simpless">SimpleLess</a>、<a target="_blank" href="http://incident57.com/codekit/">CodeKit.app</a>这样的工具，也有<a target="_blank" href="http://less.cnodejs.net/">在线编译</a>地址。</p>
+<p>2.变量符不一样，less是@，而Scss是$，而且变量的作用域也不一样，后面会讲到。</p>
+<p>3.输出设置，Less没有输出设置，Sass提供4中输出选项：nested, compact, compressed 和 expanded。</p>
+<p>4.Sass支持条件语句，可以使用if{}else{},for{}循环等等。而Less不支持。</p>
+<pre>
+/* Sample Sass &quot;if&quot; statement */
+
+@if lightness($color) &gt; 30% {
+  background-color: #000;
+} @else {
+  background-color: #fff;
+}
+
+/* Sample Sass &quot;for&quot; loop */
+@for $i from 1 to 10 {
+  .border-#{$i} {
+    border: #{$i}px solid blue;
+  }
+}
+</pre>
+<h4>三. Sass/Scss&amp;Less的共同特征</h4>
+<h4>1.变量</h4>
+<p>允许我们单独定义通用的样式，这样可以在css中调用。</p>
+<p><strong>Less 变量</strong></p>
+<pre>
+@color:#4d926f;
+#header{
+  color:@color;
+}
+h2{
+  color:@color;
+}
+</pre>
+<p><strong>Scss 变量</strong></p>
+<pre>
+$color:#4d926f;
+#header{
+  color:$color;
+}
+h2{
+  color:$color;
+}
+</pre>
+<p>编译后的css</p>
+<pre>
+#header{color:#4d926f;}
+h2{color:#4d926f;}
+</pre>
+<h4>2.混合</h4>
+<p>混合可以将一个定义好的class A轻松的引入到另一个class B中，从而简单实现class B继承class A中的所有属性。我们还可以带参数地调用，就像使用函数一样。</p>
+<p><strong>Less 混合</strong></p>
+<pre>
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+#header {
+  .rounded-corners;
+}
+#footer {
+  .rounded-corners(11px);
+}
+</pre>
+<p><strong>Scss 混合</strong></p>
+<pre>
+@mixin rounded-corners ($radius: 5px) {
+  border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+}
+
+#header {
+  @include rounded-corners;
+}
+#footer {
+  @include rounded-corners(11px);
+}
+</pre>
+<p>编译后的css</p>
+<pre>
+#header{
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+}
+#footer{
+  border-radius:11px;
+  -webkit-border-radius:11px;
+  -moz-border-radius:11px;
+}
+</pre>
+<h4>3.嵌套</h4>
+<p>我们可以在一个选择器中嵌套另一个选择器来实现继承，这样很大程度减少了代码量，并且代码看起来更加的清晰。<br />
+<strong>Less 嵌套</strong></p>
+<pre>
+#header {
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p { font-size: 12px;
+    a { text-decoration: none;
+      &amp;:hover { border-width: 1px }
+    }
+  }
+}
+</pre>
+<p><strong>Scss 嵌套</strong></p>
+<pre>
+#header {
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p { font-size: 12px;
+    a { text-decoration: none;
+      &amp;:hover { border-width: 1px }
+    }
+  }
+}
+</pre>
+<p>编译后的css</p>
+<pre>
+#header h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+#header p {
+  font-size: 12px;
+}
+#header p a {
+  text-decoration: none;
+}
+#header p a:hover {
+  border-width: 1px;
+}
+</pre>
+<h4>3.函数&amp;运算</h4>
+<p>运算提供了加，减，乘，除操作；我们可以做属性值和颜色的运算，这样就可以实现属性值之间的复杂关系。<br />
+<strong>Less 函数运算</strong></p>
+<pre>
+@the-border: 1px;
+@base-color: #111;
+@red:        #842210;
+#header {
+  color: @base-color * 3;
+  border-left: @the-border;
+  border-right: @the-border * 2;
+}
+#footer {
+  color: @base-color + #003300;
+  border-color: desaturate(@red, 10%);
+}
+</pre>
+<p><strong>Scss-函数运算</strong></p>
+<pre>
+$the-border: 1px;
+$base-color: #111;
+$red:        #842210;
+#header {
+  color: $base-color * 3;
+  border-left: $the-border;
+  border-right: $the-border * 2;
+}
+#footer {
+  color: $base-color + #003300;
+  border-color: desaturate($red, 10%);
+}
+</pre>
+<p><strong>编译后的css</strong></p>
+<pre>
+#header {
+  color: #333;
+  border-left: 1px;
+  border-right: 2px;
+}
+#footer {
+  color: #114411;
+  border-color: #7d2717;
+}
+</pre>
+<h4>4.color函数</h4>
+<p>提供了一系列的颜色运算函数. 颜色会先被转化成 HSL 色彩空间, 然后在通道级别操作:</p>
+<pre>
+lighten(@color, 10%);
+/* return a color which is 10% *lighter* than @color */
+darken(@color, 10%);
+/* return a color which is 10% *darker* than @color */
+
+saturate(@color, 10%);
+/* return a color 10% *more* saturated than @color */
+desaturate(@color, 10%);
+/* return a color 10% *less* saturated than @color */
+
+fadein(@color, 10%);
+/* return a color 10% *less* transparent than @color */
+fadeout(@color, 10%);
+/* return a color 10% *more* transparent than @color */
+
+spin(@color, 10);
+/* return a color with a 10 degree larger in hue than @color */
+spin(@color, -10);
+/* return a color with a 10 degree smaller hue than @color */
+</pre>
+<p>Scss同样也支持color函数，只需要将@改为$即可。</p>
+<h4>5.作用域</h4>
+<p><strong>Less-作用域</strong></p>
+<pre>
+@color: #00c; /* 蓝色 */
+#header {
+  @color: #c00; /* red */
+  border: 1px solid @color; /* 红色边框 */
+}
+#footer {
+  border: 1px solid @color; /* 蓝色边框 */
+}
+</pre>
+<p><strong>Less-作用域编译后</strong></p>
+<pre>
+#header{border:1px solid #cc0000;}
+#footer{border:1px solid #0000cc;}
+</pre>
+<p><strong>scss-作用域</strong></p>
+<pre>
+$color: #00c; /* 蓝色 */
+#header {
+  $color: #c00; /* red */
+  border: 1px solid $color; /* 红色边框 */
+}
+#footer {
+  border: 1px solid $color; /* 蓝色边框 */
+}
+</pre>
+<p><strong>Less-作用域编译后</strong></p>
+<pre>
+#header{border:1px solid #c00}
+#footer{border:1px solid #c00}
+</pre>
+<p>我们可以看出来，less和scss中的变量会随着作用域的变化而不一样，上面的例子能很好的解释这点。</p>
+<h4>6.Importing</h4>
+<p>文件引入<br />
+<strong>Less-import</strong></p>
+<pre>
+@import &quot;lib.less&quot;;
+@import &quot;lib&quot;;
+</pre>
+<p>在Scss中，也是可以import。<br />
+<strong>scss-import</strong></p>
+<pre>
+//需要被 import 的文件必须以 _开头命名，如 _rounded.scss
+@import &quot;rounded&quot;;
+</pre>
+<h4>四. Sass/Scss安装</h4>
+<p>Scss的安装需要Ruby环境</p>
+<pre>
+$ gem install sass
+</pre>
+<p>安装后就可以直接编译Sass了</p>
+<pre>
+$ sass --watch style.scss:style.css
+</pre>
+<p>还有一个利器就是大名顶顶的Compass，后面我会用一篇博文来介绍下。</p>
+<h4>五. Less安装使用</h4>
+<h4>1.在客户端使用</h4>
+<p>引入你的 .less 样式文件的时候要设置 rel 属性值为 &ldquo;stylesheet/less&rdquo;:</p>
+<pre>
+&lt;link rel=&quot;stylesheet/less&quot; type=&quot;text/css&quot; href=&quot;styles.less&quot;&gt;
+</pre>
+<p>然后在Less官网下载 less.js, 在 中引入:</p>
+<pre>
+&lt;script src=&quot;less.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+</pre>
+<p>注意你的less样式文件一定要在引入less.js前先引入。</p>
+<h4>2.在服务端安装使用</h4>
+<h4>* 安装</h4>
+<p>在服务器端安装 LESS 的最简单方式就是通过 npm(node 的包管理器), 像这样:</p>
+<pre>
+$ npm install less
+</pre>
+<p>如果你想下载最新稳定版本的 LESS，可以尝试像下面这样操作:</p>
+<pre>
+$ npm install less@latest
+</pre>
+<h4>* 使用</h4>
+<p>在命令行下使用</p>
+<p>你可以在终端调用 LESS 解析器:</p>
+<pre>
+$ lessc styles.less
+</pre>
+<p>上面的命令会将编译后的 CSS 传递给 stdout, 你可以将它保存到一个文件中:</p>
+<pre>
+$ lessc styles.less &gt; styles.css
+</pre>
+<p>如何你想将编译后的 CSS 压缩掉，那么加一个 -x 参数就可以了.<br />
+还有些编译工具上面也有讲过，那些更加的方便。</p>
+<p>参考资料<br />
+<a target="_blank" href="http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/">http://coding.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/</a><br />
+<a target="_blank" href="http://www.lesscss.org/">http://www.lesscss.org</a><br />
+<a target="_blank" href="http://www.lesscss.net/">http://www.lesscss.net</a><br />
+<a target="_blank" href="http://sass-lang.com/">http://sass-lang.com</a></p>
+
+
+					</div>
+					
+					<div style="margin:0 auto;text-align:right;padding:10px 25px 0 25px; font-size:12px;">
+					本文来源：<a name='source' target='_blank' href=http://www.im-ux.com/archives/1180 rel='external nofollow'>原文链接</a> 
+					
+					</div>
+					
+				</div>
+				<!-- PostContent end -->
+				
+				<div class="postnavi">
+					<div class="previous_post">上一篇：<a href='/language/20120325/319410.html'>R语言：优雅、卓越的统计分析及绘图环境</a> </div>
+					<div class="next_post">下一篇：<a href='/language/20120326/319443.html'>为什么动态类型语言相对比较慢？</a>  </div>
+				</div>
+				
+		
+</body>
+</html>
