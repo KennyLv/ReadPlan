@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0055)http://java.itcast.cn/subject/javastudypath/index.shtml -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Java学习路线图-最适合自学者从入门到项目开发</title>
+<link type="text/css" rel="stylesheet" >
+<style>
+@charset "utf-8";
+/* CSS By Suki */
+/*-------------初始化----------------*/
+/****  文字大小初始化,使1em=10px *****/
+body{font-size:62.5%;}/* for IE/Win */
+html>body{font-size:12px;} /* for everything else */
+/*字体边框等初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,tr,th,td,img{padding:0; margin:0; font-size:12px;}
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img,input{border:0;}
+address,caption,cite,code,dfn,th,var{font-weight:normal; font-style:normal;}
+ol,ul,li{list-style:none; vertical-align:top;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+a{text-decoration:none; outline:none;}
+a img{border:none;}/*for IE*/
+a:active{star:expression(this.onFocus=this.blur());}/*点击虚框去除*/
+/*--------------end------------*/
+body{background:#fff; font-size:12px; font-family:'微软雅黑';}
+#header{background:#fff;}
+/*--------------banner------------*/
+#banner{ overflow:hidden;}
+#banner .down{ height:176px; background:#f5f5f5 url(title.jpg) no-repeat center top; text-align:center; text-shadow:-1px 1px 2px #8e2900;}
+#banner .down h2{ font-size:45px; color:#fff000; padding-top:20px;}
+#banner .down p{ font-size:30px; color:#fff;}
+/*--------------con------------*/
+#con{ width:100%; background:#f5f5f5;}
+.con_in{ width:1000px; margin:0 auto; background:#fff; padding-bottom:50px;}
+.box h2{ width:520px; height:65px; margin:0 auto; background:url(step_bg.jpg) no-repeat center center; text-align:center; line-height:60px; _line-height:65px; font-size:32px; color:#fff; text-shadow:-1px 1px 2px #8e2900; padding:40px 0;}
+.box h2 span{ color:#fbed00;}
+.box .txt{ width:890px; margin:0 auto; overflow:hidden;}
+.box .txt ul{ width:1000px; overflow:hidden;}
+.box .txt ul li{ float:left; width:267px; height:350px; border:2px solid #e45036; border-radius:20px; padding-left:15px; margin:0 15px 15px 0; overflow:hidden;}
+.box .txt ul li h4{ padding:16px 0 5px 0; font-size:17px;}
+.box .txt ul li p{ font-size:14px; line-height:24px;}
+.box .txt ul li p .clear_s{padding:0 10px;}
+.box .txt ul li div{overflow:hidden;}
+.box .txt ul li div p.left{float:left; width:280px;}
+.box .txt ul li div p.right{float:left; width:288px;}
+.a_video{ display:block; height:29px; background:#E45036; border-radius:5px; padding-left:26px; line-height:29px; color:#fff; font-size:16px; }
+.a_video:hover{ background:#eb6a53;}
+.box .txt ul .video{ border:none; width:336px; padding-left:5px;}
+.box .txt ul .video .download{ width:100px; height:30px; line-height:30px; padding-top:0; margin-top:14px; background:url(download.jpg) no-repeat right center; }
+.box .txt ul .video a{ display:block; width:200px; height:30px; margin-top:8px;}
+.box2 .txt ul li{width:267px; height:224px;}
+.con_in .line{ width:890px; height:45px; margin:0 auto; line-height:42px; background:#535353; margin-top:35px; color:#ffff00; font-size:22px; text-align:center; letter-spacing:1px;}
+.con_in .line span{ color:#fff;}
+.box3 .txt ul li{ width:192px; height:180px;}
+.box3 h3{font-size:20px; color:#333; text-align:center; width:200px; margin:0 auto; height:40px;}
+.box3 .txt ul li div p.left{float:left; width:230px;}
+.box3 .txt ul li div p.right{float:left; width:186px;}
+.box3 .txt ul li.h_li{width:267px; height:156px;}
+.box3 .txt ul li.s_li{width:192px; height:156px;}
+.box3 .txt ul .video .download{margin-top:0;} 
+.box3 .txt ul .video a{padding-left:20px; width:210px;}
+.con_in .dvideo{ width:100px; float:left; margin:0 auto; font-size:18px; background:url(download.jpg) no-repeat right center;}
+.con_in .mbox{ width:339px; margin:0 auto; overflow:hidden;}
+.con_in .mbox .sbox{ float:left; background:0; padding:0; padding-left:10px; margin:0; width:220px;}
+.box4 .txt ul li{ width:192px; height:370px;}
+.box5 .txt ul li{ width:418px; height:156px;}
+.box7 .txt ul li{ width:207px; height:139px; padding-left:0; background:url(li5.jpg) no-repeat center 10px;}
+.box7 .txt ul li.li2{ background-image:url(li6.jpg);}
+.box7 .txt ul li.li3{ background-image:url(li7.jpg);}
+.box7 .txt ul li.li4{ background-image:url(li8.jpg);}
+.box9 .txt ul li.li1{ background-image:url(li1.jpg);}
+.box9 .txt ul li.li2{ background-image:url(li2.jpg);}
+.box9 .txt ul li.li3{ background-image:url(li3.jpg);}
+.box9 .txt ul li.li4{ background-image:url(li4.jpg);}
+.box7 .txt ul li span{ display:block; margin-top:105px;  text-align:center; font-size:16px;}
+.box8 .txt ul li.li01{height:442px;}
+.box8 .txt ul li.li02{height:250px;}
+.box8 .txt ul li.li03{height:298px;}
+.box6{ padding-bottom:66px;}
+.box6 .txt .left{ float:left; width:490px; height:235px; border-right:1px solid #87b628;}
+.box6 .txt .left h4{ font-size:18px; height:29px; margin-top:5px;}
+.box6 .txt .left a{ width:437px; padding-left:26px; margin-bottom:6px;}
+.box6 .txt .right{ float:left; width:365px; padding-left:32px;}
+.box6 .txt .right h3{ width:140px; height:51px; background:url(remind.jpg) no-repeat; margin:20px 0 10px 0;}
+.box6 .txt .right p{ font-size:14px; line-height:25px;}
+.con_in .line2{ margin-top:10px;}
+.explain{ background:#626262; padding-bottom:40px;}
+.explain .ex_in{ width:1000px; margin:0 auto;}
+.ex_in h2{ height:91px; background:url(Explain_bg.jpg) no-repeat center top; text-align:center; font-size:32px; color:#fff; line-height:91px; position:relative; top:-19px;}
+.ex_in h2 span{ color:#ff0;}
+.ex_in ul{ margin-top:12px;}
+.ex_in ul li{ background:#fff url(number.jpg) no-repeat 0 0; height:76px; padding:20px 23px 0 104px; margin-bottom:20px;}
+.ex_in ul li.ex02{ height:116px; background-position:0 -86px; }
+.ex_in ul li.ex03{ height:199px; background-position:0 -206px;}
+.ex_in ul li.ex04{ background-position:0 -411px; padding-top:15px; height:81px; }
+.ex_in ul li.ex05{ background-position:0 -507px; padding-top:36px; height:60px; }
+.ex_in ul li p{ font-size:14px; line-height:22px;}
+.ex_in ul li p.sj{ text-indent:2em;}
+.ex_in ul li p span{ color:#6b8d03;}
+.ex_in ul li p a{ color:#145ff7; text-decoration:underline;}
+
+#top{width: 40px; height: 40px; background:url(top.jpg) no-repeat; position: fixed; left:50%; bottom:60px; margin-left:500px; cursor: pointer; z-index:300; display: none; _position:absolute; _left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,12%)||0)) _bottom:expression(eval(document.documentElement.scrollTop));_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,60)||0)));}}
+
+
+
+
+
+</style>
+
+
+<body>
+
+<!-- 页面内容 -->
+<div id="banner">
+	<div class="down">
+		<h2>J2EE学习路线图</h2>
+	</div>
+</div>
+<div id="con">
+	<div class="con_in">
+		<div class="box" style="background: lightblue;">
+			<h2><span>第一步：</span>JavaSE部分</h2>
+			<div class="txt">
+				<ul>
+					<li>
+						<h4>第1阶段 Java基础知识</h4>
+						<p>&gt;&gt; 计算机基础知识<br>&gt;&gt; Java开发环境的搭建和应用<br>&gt;&gt; 进制转换<br>&gt;&gt; 有符号数据表示法(原码,反码,补码)<br>&gt;&gt; Java语法基础(关键字,标识符,注释,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常量,变量,数据类型,运算符)<br>
+&gt;&gt; 程序流程控制语句及其应用<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(if,switch,for,while)<br>&gt;&gt; 函数及其应用<br>&gt;&gt; 数组及其应用<br>&gt;&gt; 水仙花，裴波纳契数列，数据加密<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等经典问题的详解讲解。</p>
+					</li>
+					<li>
+						<h4>第2阶段 面向对象</h4>
+						<p>&gt;&gt; 面向对象思想<br>&gt;&gt; 类与对象<br>&gt;&gt; 类的组成<br>&gt;&gt; 封装及其应用<br>&gt;&gt; 继承及其应用<br>&gt;&gt; 多态及其应用<br>&gt;&gt; 抽象类及其应用<br>&gt;&gt; 接口及其应用<br>&gt;&gt; 包,导包及其应用<br>&gt;&gt; 单例设计模式，简单工厂模式和工厂<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法模式，模板设计模式。</p>
+					</li>
+					<li>
+						<h4>第3阶段 Eclipse的使用和常用API</h4>
+						<p>&gt;&gt; Eclipse的安装和使用<br>&gt;&gt; Java API的介绍和使用<br>&gt;&gt; 字符串类的常见操作<br>&gt;&gt; 正则表达式的使用<br>&gt;&gt; 日期类的使用<br>&gt;&gt; 集合体系结构及其使用<br>&gt;&gt; 异常体系结构及其使用<br>&gt;&gt;  File类的概述及其使用<br>&gt;&gt; IO流体系结构及其使用<br>&gt;&gt; 递归算法，装饰设计模式，泛型的使<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用，增强for循环，可变参数，静态导<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入等特性的详细讲解。</p>
+					</li>
+					<li style="width:568px; height:255px;">
+						<h4>第4阶段 JavaSE高级</h4>
+						<div>
+							<p class="left">&gt;&gt; 多线程概述及其应用<br>&gt;&gt; 多线程的线程安全问题及解决方案<br>&gt;&gt; 死锁问题<br>&gt;&gt; 多线程的生产者消费者问题<br>&gt;&gt; 线程组，线程池问题<br>&gt;&gt; GUI的概述和基本使用<br>&gt;&gt; GUI中事件监听机制及适配器设计模式<br>&gt;&gt; 网络编程概述及其应用</p>
+							<p class="right">&gt;&gt; UDP协议发送和接收数据<br>&gt;&gt; TCP协议发送和接收数据<br>&gt;&gt; 反射的概述及其应用<br>&gt;&gt; 反射获取类中的成员并使用<br>&gt;&gt; 反射越过泛型检查<br>&gt;&gt; 反射运行配置文件的内容<br>&gt;&gt; 多线程群聊，聊天室的编写，文件上传<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务器，类加载器，反射及代理。</p>
+						</div>
+					</li>
+					<li class="video" style="height:255px;">
+						<h4 class="download" style="margin-top:60px;">视频下载</h4>
+						<a href="http://java.itcast.cn/news/e393b086/ebce/4f94/9d48/94ed86bcf5ef.shtml" target="_blank" class="a_video">&gt;&gt;基础幽默版下载</a>
+						<a href="http://java.itcast.cn/news/20141107/10494252523.shtml" target="_blank" class="a_video">&gt;&gt;基础精华版下载</a>						
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="box box2" style="background: lightgreen;">
+			<h2><span>第二步：</span>JavaWeb部分</h2>
+			<div class="txt">
+				<ul>
+					<li>
+						<h4>第1阶段 JavaWeb前端</h4>
+						<p>&gt;&gt; HTML<br>&gt;&gt; css<br>&gt;&gt; JavaScript<br>&gt;&gt; dom</p>
+					</li>
+					<li>
+						<h4>第2阶段 JavaWeb基础</h4>
+						<p>&gt;&gt; xml<br>&gt;&gt; tomcat<br>&gt;&gt; http协议<br>&gt;&gt; servlet<br>&gt;&gt;  request与resposne<br>&gt;&gt; cookie与session</p>
+					</li>
+					<li>
+						<h4>第3阶段 JavaWeb中级</h4>
+						<p>&gt;&gt; jsp语法<br>&gt;&gt; el与jstl<br>&gt;&gt; 自定义标签<br>&gt;&gt; 国际化<br>&gt;&gt;  mvc与jsp模式<br>&gt;&gt; web三层架构</p>
+					</li>
+					<li>
+						<h4>第4阶段 JavaWeb-jdbc</h4>
+						<p>&gt;&gt; Mysql数据库<br>&gt;&gt; 多表操作<br>&gt;&gt; jdbc原理与API<br>&gt;&gt; 事务管理<br>&gt;&gt;  DataSource<br>&gt;&gt; DbUtils<br>&gt;&gt; 分页与其它操作</p>
+					</li>
+					<li class="short">
+						<h4>第5阶段 JavaWeb-高级</h4>
+						<p>&gt;&gt; Listener<br>&gt;&gt; Filter<br>&gt;&gt; 文件上传下载<br>&gt;&gt; ajax操作</p>
+					</li><li>
+						<h4>第6阶段 项目实战</h4>
+						<p>&gt;&gt; 基础加强<br>&gt;&gt; 在线支付<br>&gt;&gt; 项目实战</p>
+					</li>
+				</ul>
+			</div>
+			<div class="mbox" style="_margin-top:10px;">
+				<h4 class="dvideo">视频下载</h4>
+				<p class="sbox"><a href="http://java.itcast.cn/news/20140701/15012746404.shtml" target="_blank" class="a_l a_video">&gt;&gt;JavaWeb视频下载</a></p>
+			</div>			
+		</div>
+		<div class="box box3" style="background: lightgray;">
+			<h2><span>第三步：</span>SSH框架部分</h2>
+			<div class="txt">
+				<h3>Struts2框架</h3>
+				<ul>
+					<li>
+						<h4>1. Struts2入门</h4>
+						<p>&gt;&gt; 框架介绍<br>&gt;&gt; Struts2框架介绍<br>&gt;&gt; Struts2快速入门<br>&gt;&gt; Struts2配置<br>
+&gt;&gt; 等等</p>
+					</li>
+					<li style="width:418px;">
+						<h4>2. action</h4>
+						<div>
+							<p class="left">&gt;&gt; action创建方式<br>&gt;&gt; action配置<br>&gt;&gt; action调用<br>&gt;&gt; action访问servlet<br>&gt;&gt; Result结果类型</p>
+							<p class="right">&gt;&gt; action类型转换<br>&gt;&gt; action处理请求参数<br>&gt;&gt; 请求参数校验<br>&gt;&gt; Struts2国际化</p>
+						</div>						
+					</li>
+					<li>
+						<h4>3. 拦截器</h4>
+						<p>&gt;&gt; 拦截器原理介绍<br>&gt;&gt; 拦截器配置与使用<br>&gt;&gt; 拦截器案例<br>&gt;&gt; 文件上传与下载</p>
+					</li>
+					<li>
+						<h4>4. Struts2核心-拦截器</h4>
+						<p>&gt;&gt; 拦截器原理介绍<br>&gt;&gt; Struts2拦截器配置与使用<br>&gt;&gt; 拦截器案例<br>&gt;&gt; 文件上传与下载<br>
+&gt;&gt; 触发器</p>
+					</li>
+					<li>
+						<h4>5. ognl与valueStack</h4>
+						<p>&gt;&gt; ognl介绍与基本使用<br>&gt;&gt; valueStack介绍与使用<br>&gt;&gt; ognl获取valueStack中<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;信息</p>
+					</li>
+					<li>
+						<h4>6. Struts2标签库</h4>
+						<p>&gt;&gt; 逻辑标签介绍<br>&gt;&gt; 表单标签介绍</p>
+					</li>
+					<li>
+						<h4>7. Struts2综合案例</h4>
+						<p>&gt;&gt;  Struts2防止表单重提交<br>&gt;&gt;  Struts2中json插件使用<br>&gt;&gt; struts案例-员工信息管理</p>
+					</li>
+				</ul>
+				<h3>Spring框架</h3>	
+				<ul>
+					<li class="s_li">
+						<h4>1. Spring入门</h4>
+						<p>&gt;&gt;  IoC快速入门<br>&gt;&gt; Bean管理<br>&gt;&gt; DI依赖注入<br>&gt;&gt; 注解开发</p>
+					</li>
+					<li class="s_li">
+						<h4>2. 切面编程</h4>
+						<p>&gt;&gt; AOP编程思想<br>&gt;&gt; 自定义AOP实现<br>&gt;&gt; AspectJ编程<br>&gt;&gt; JdbcTemplate使用</p>
+					</li>
+					<li class="s_li">
+						<h4>3. 事务管理</h4>
+						<p>&gt;&gt; 编程式事务管理<br>&gt;&gt; 声明式事务管理<br>&gt;&gt; 注解事务管理</p>
+					</li>
+					<li class="s_li">
+						<h4>3. SSH整合</h4>
+						<p>&gt;&gt; Struts2整合spring<br>&gt;&gt; Spring整合Hibernate<br>&gt;&gt; HibernateTemplate<br>&gt;&gt; 注解整合</p>
+					</li>
+				</ul>
+				<h3>Hibernate框架</h3>	
+				<ul>
+					<li class="h_li">
+						<h4>1. Hibernate开发基础</h4>
+						<p>&gt;&gt; Hibernate概述<br>&gt;&gt; Hibernate快速入门<br>&gt;&gt; HibernateAPI的详解及常见配置<br>&gt;&gt; Hibernate持久化配置及主键生成策略</p>
+					</li>
+					<li class="h_li">
+						<h4>2. Hibernate中级开发</h4>
+						<p>&gt;&gt; Hibernate持久化对象的状态转换<br>&gt;&gt; Hibernate的一级缓存及原理<br>&gt;&gt; Hibernate关联关系配置及应用<br>&gt;&gt; Hibernate检索方式</p>
+					</li>
+					<li class="h_li">
+						<h4>3. Hibernate高级开发</h4>
+						<p>&gt;&gt; Hiberante抓取策略<br>&gt;&gt; Hibernate事务并发及处理<br>&gt;&gt; Hibernate二级缓存<br>&gt;&gt; Hibernate查询缓存</p>
+					</li>
+				</ul>
+				<h3>SSH项目实战</h3>	
+				<ul>
+					<li style="width:568px; height:146px;">
+						<div style="margin-top:15px;">
+							<p class="left">&gt;&gt; CVS和SVN<br>&gt;&gt; CRM项目<br>&gt;&gt; 协调办公OA系统</p>
+							<p class="right">&gt;&gt; 国家电力系统<br>&gt;&gt; BOS宅急</p>
+						</div>						
+					</li>
+					<li class="video" style="height:156px;">
+						<h4 class="download">视频下载</h4>
+						<a href="http://java.itcast.cn/news/fc5d33c4/882e/4297/87f7/b6e959417503.shtml" target="_blank" class="a_video">&gt;&gt;Struts2框架视频下载</a>
+						<a href="http://java.itcast.cn/news/6b26de6c/90b2/4e5a/b420/b2b79d097825.shtml" target="_blank" class="a_video">&gt;&gt;Spring框架视频下载</a>						
+						<a href="http://java.itcast.cn/news/20140121/18040612308.shtml" target="_blank" class="a_video">&gt;&gt;Hibernate框架视频下载</a>						
+					</li>
+				</ul>
+			</div>		
+		</div>
+		<div class="box box4">
+			<h2><span>第四步：</span>JavaScript部分</h2>
+			<div class="txt">
+				<ul>
+					<li>
+						<h4>第1阶段 JavaScript</h4>
+						<p>&gt;&gt; JavaScript基础内容<br>&gt;&gt; JavaScript的ECMA<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Script(语法内容) <br>&gt;&gt; JavaScript的BOM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(浏览器对象模型)<br>&gt;&gt; JavaScript的DOM编程<br>&gt;&gt; JavaScript常用事件<br>&gt;&gt; JavaScript解析XML<br>&gt;&gt; JavaScript的函数<br>&gt;&gt; JavaScript的对象<br>&gt;&gt; JavaScript的闭包<br>&gt;&gt; JavaScript的原型<br>&gt;&gt; JavaScript的继承</p>
+					</li>
+					<li>
+						<h4>第2阶段 Ajax</h4>
+						<p>&gt;&gt; 同步交互与异步交互<br>&gt;&gt; 异步交互原理<br>&gt;&gt; 异步交互实现步骤<br>&gt;&gt; 异步交互的实际案例<br>&gt;&gt; 请求响应使用的数据格式</p>
+					</li>
+					<li>
+						<h4>第3阶段 jQuery</h4>
+						<p>&gt;&gt; JavaScript常用库介绍<br>&gt;&gt; jQuery基本使用<br>&gt;&gt; jQuery的选择器<br>&gt;&gt; jQuery的DOM操作<br>&gt;&gt; jQuery的事件处理<br>&gt;&gt; jQuery的Ajax操作<br>&gt;&gt; jQuery的常用插件</p>
+					</li>
+					<li>
+						<h4>第4阶段 EasyUI</h4>
+						<p>&gt;&gt; 如何使用EasyUI<br>&gt;&gt; EasyUI的常用控件<br>&gt;&gt; EasyUI的实际案</p>
+					</li>
+				</ul>
+			</div>
+			<div class="mbox" style=" _margin-top:10px;">
+				<h4 class="dvideo">视频下载</h4>
+				<p class="sbox"><a href="http://java.itcast.cn/news/20121210/17350033030.shtml" target="_blank" class="a_l a_video">&gt;&gt;JavaScript视频下载</a></p>
+			</div>
+		</div>
+		<div class="box box7">
+			<h2>第一个项目（软件项目管理）</h2>
+			<div class="txt">
+				<ul>
+					<li class="li"><span>ERP</span></li>
+					<li class="li2"><span>协调办公OA系统</span></li>
+					<li class="li3"><span>国家电力系统</span></li>
+					<li class="li4"><span>BOS宅急送</span></li>
+				</ul>
+			</div>
+			<div class="mbox" style=" _margin-top:10px;">
+				<h4 class="dvideo">视频下载</h4>
+				<p class="sbox"><a href="http://java.itcast.cn/news/20140122/11063966937.shtml" target="_blank" class="a_l a_video">&gt;&gt;协调办公OA</a></p>		
+			</div>	
+		</div>
+		<div class="box box5">
+			<h2><span>第五步：</span>Maven +软件项目管理</h2>
+			<div class="txt">
+				<ul>
+					<li>
+						<h4>Maven</h4>
+						<div>
+							<p class="left" style="width:190px;">&gt;&gt; MAVEN的安装与配置<br>&gt;&gt; 坐标与依赖<br>&gt;&gt; 仓库<br>&gt;&gt; 生命周期</p>
+							<p class="right" style="width:216px;">&gt;&gt; 聚合与继承<br>&gt;&gt; Nexus私服<br>&gt;&gt; SSH项目+MyEclipse+maven</p>
+						</div>						
+					</li>
+					<li><h4 style="text-align:center; margin-top:50px;">软件项目管理</h4></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box box2 box8">
+			<h2><span>第六步：</span>其他框架和技术</h2>
+			<div class="txt">
+				<ul>
+					<li class="li01">
+						<h4>第1阶段 WebService</h4>
+						<p>&gt;&gt; 介绍，分布式计WebService<br>&gt;&gt;  WebService与传统的分布式计算技较<br>&gt;&gt; Web服务通常应用于下列场合<br>&gt;&gt; SOAP(Simple ObjectAccess<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protocol)5<br>&gt;&gt; Web服务（Web Services）SOA的<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务契约WSDL<br>&gt;&gt;  WebService底层原理<br>&gt;&gt; 调用网上的web services服务，天气<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;预报<br>&gt;&gt; 如何看wsdl文件？<br>&gt;&gt; 如何发布自己的web服务<br>&gt;&gt; 增强，修改wsdl的内容</p>
+					</li>
+					<li class="li01">
+						<h4>第2阶段 强大的的Apache CXF<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web服务</h4>
+						<p>&gt;&gt; Apache CXF介绍<br>&gt;&gt;  CXF的WebService应用<br>&gt;&gt; 加入消息拦截器<br>&gt;&gt; 升级让CXF支持最新的SOAP1.2协议<br>&gt;&gt;  Spring框架整合CXF Web服务<br>&gt;&gt; 接口方式发布CXF Web服务<br>&gt;&gt; 使用jQuery调用CXF Web服务<br>&gt;&gt; WebServices的安全</p>
+					</li>
+					<li class="li01">
+						<h4>第3阶段 Activiti</h4>
+						<p>&gt;&gt; 业务流程建模与标注BPMN 2.0 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;流程引擎<br>&gt;&gt; Activiti 基本架构和服务组件<br>&gt;&gt; 流程代办在线流程设计器流程嵌入<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;式部署<br>&gt;&gt; 流程管理自动化<br>&gt;&gt;  ProcessEngine(流程引擎)<br>&gt;&gt; RepositoryService(管理流程定义)<br>&gt;&gt;  RuntimeService(执行管理，包括<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;启动、推进、删除流程实例等操作)<br>&gt;&gt; TaskService(任务管理)<br>&gt;&gt; HistoryService(历史管理(执行完<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;的数据的管理))<br>&gt;&gt; IdentityService(组织机构管理)<br>&gt;&gt; FormService(一个可选服务，任务<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表单管理)</p>
+					</li>
+					<li class="li02">
+						<h4>第4阶段 Orcale</h4>
+						<p>&gt;&gt; SQL<br>&gt;&gt; PL/SQL<br>&gt;&gt; JAVA调用存储过程和函数<br>&gt;&gt; 触发器<br>&gt;&gt;  数据字典<br>&gt;&gt; 用户安全<br>&gt;&gt; 闪回<br>&gt;&gt; 分布式数据</p>
+					</li>
+					<li class="li02">
+						<h4>第5阶段 Spring MVC</h4>
+						<p>&gt;&gt; SpringMvc三种映射处理器<br>&gt;&gt; SpringMvc三种控制器<br>&gt;&gt; SpringMvc数据返回ajax调用<br>&gt;&gt; ajax调用和重定向<br>&gt;&gt; 文件上传与拦截器<br>&gt;&gt; SpringMvc与hibernate整合<br>&gt;&gt; SpringMvc注解参数</p>
+					</li>
+					<li class="li02">
+						<h4>第6阶段 MyBatis</h4>
+						<p>&gt;&gt;  基本增、删、改、查的使用<br>&gt;&gt; 动态sql<br>&gt;&gt; 联合查询<br>&gt;&gt; 延迟加载<br>&gt;&gt; 一级缓存与二级缓存<br>&gt;&gt; mybatis缓存框架<br>&gt;&gt; 基于注解mybatis开发<br>&gt;&gt;mybatis整SpringMvc</p>
+					</li>
+					<li class="li03">
+						<h4>第7阶段 Mongdb</h4>
+						<p>&gt;&gt; 非关系型数据库的介绍<br>&gt;&gt; mongodb数据库存储以及交互<br>&gt;&gt; mongdb 的数据备份<br>&gt;&gt; mongodb的安全控制<br>&gt;&gt; mongodb 的集群（主从复制，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;副本集）<br>&gt;&gt; mongdb 分布式存储<br>&gt;&gt; mongodb 与java 整合</p>
+					</li>
+					<li class="li03" style="width:568px;">
+						<h4>第8阶段 Lucene 和Solr</h4>
+						<div>
+							<p class="left">&gt;&gt; 全文检索的基本概念<br>&gt;&gt; lucene 索引的操作（增删改查分页）<br>&gt;&gt; lucene 索引的得分机制原理分析<br>&gt;&gt; 分词器的原理以及使用<br>&gt;&gt; 索引库优化<br>&gt;&gt; 高亮器的使用<br>&gt;&gt; lucene 各种查询条件的介绍<br>&gt;&gt; 全文检索与数据库检索的区别</p>
+							<p class="right">&gt;&gt; lucene 在项目当中的使用以及需要<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注意的问题<br>&gt;&gt; solr 的介绍以及环境的搭建<br>&gt;&gt; solr 的提供的rest 的接口介绍<br>&gt;&gt; 使用solrj 来调用solr 的服务<br>&gt;&gt; solr 的单核心与多核心的作用<br>&gt;&gt; solr 索引结构的分析以及配置文件介绍 <br>&gt;&gt; solr 插件的介绍以及安装（与数据库<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;整合插件）<br>&gt;&gt; solr 怎么整合到我们的实际应用当中
+</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="mbox" style="_margin-top:10px;">
+				<h4 class="dvideo">视频下载</h4>
+				<p class="sbox"><a href="http://www.itcast.cn/news/20141017/16245035666.shtml" target="_blank" class="a_l a_video" style="padding-left:17px;">&gt;&gt;Activiti工作流视频下载</a></p>
+			</div>			
+		</div>
+		<div class="box box7 box9">
+			<h2>第二个项目（软件项目管理）</h2>
+			<div class="txt">
+				<ul>
+					<li class="li1"><span>移动电子商城</span></li>
+					<li class="li2"><span>医药集中采购平台</span></li>
+					<li class="li3"><span>杰信商贸综合管理平台</span></li>
+					<li class="li4"><span>新巴巴运动网</span></li>
+				</ul>
+			</div>
+		</div>	
+
+</div>
+<div id="top" title="回到顶部" style="display: block;"></div>
+
+</div>
+</body>
+</html>
