@@ -12,6 +12,23 @@ vt.	赞助
 供货商（Suppliers）
 经济发展赞助商（Economic DevelopmentSponsors）
 
+finance
+英[ˈfaɪnæns]
+美[fəˈnæns, faɪ-, ˈfaɪˌnæns]
+n.	金融; 财政; 资金; 财源;
+vt.	为…供给资金， 从事金融活动; 赊货给…; 掌握财政;
+[例句]Tom taulli is a noted finance author and blogger.
+汤姆陶利是著名的金融作家和博客撰稿人。
+
+invest	/ investment
+英[ɪnˈvest]
+美[ɪnˈvɛst]
+vt.& vi.	投资; 花费;
+vt.	授予，使就职; 给…穿衣，装饰; 使充满; 覆盖;
+[例句]Such pay structures encourage employees to invest in high-risk assets.
+这样的薪酬结构会促使雇员投资高风险资产。
+
+
 obligation
 英[ˌɒblɪ'ɡeɪʃn]
 美[ˌɑblɪˈɡeʃən]
