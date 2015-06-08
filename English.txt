@@ -28,6 +28,13 @@ vt.	授予，使就职; 给…穿衣，装饰; 使充满; 覆盖;
 [例句]Such pay structures encourage employees to invest in high-risk assets.
 这样的薪酬结构会促使雇员投资高风险资产。
 
+visual	
+英[ˈvɪʒuəl]
+美[ˈvɪʒuəl]
+adj.	视觉的，看得见的; 光学的，视力的; 形象化的; 光学的;
+n.	画面，图象;
+[例句]We live in a visual age.
+我们生活在一个视觉时代。
 
 obligation
 英[ˌɒblɪ'ɡeɪʃn]
@@ -43,6 +50,22 @@ prescriptive
 adj.	规定的, 约定俗成的, 指定的, 惯例的
 [例句]But it is not prescriptive.
 但这并非什么规定。
+
+crowded	
+英[ˈkraʊdɪd]
+美[ˈkraʊdɪd]
+adj.	拥挤的; 水泄不通的; 肩摩踵接;
+[例句]The earth's orbit is getting crowded.
+地球的轨道变得越来越拥挤。
+
+squeeze	
+英[skwi:z]
+美[skwiz]
+vt.& vi.	挤，榨，捏; 压迫，压榨;
+vt.	榨取，汲取; 轻轻地捏; 向…勒索（或榨取）;
+vi.	在强压下屈服; 施加压力; 挤过去;
+[例句]It shows deepening pessimism about the impact of the global credit squeeze.
+这表明有关人士对于全球信贷紧缩影响的悲观情绪日益加剧。
 
 naughty	
 英[ˈnɔ:ti]
@@ -89,6 +112,13 @@ vt.	调查; 勘测; 俯瞰;
 n.	调查（表），调查所，测量，测量部，测量图; 概观，检查，鉴定书; 环顾;
 [例句]The results of the survey appeared in screen's april issue.
 这一调查结果刊登在《荧屏》杂志四月刊上。
+
+annotation	
+英[ˌænə'teɪʃn]
+美[ˌænə'teɪʃn]
+n.	注释;
+[例句]The calling method needs a return type annotation.
+主调用的方法必须有一个返回类型的注解。
 
 survive
 英[səˈvaɪv]
