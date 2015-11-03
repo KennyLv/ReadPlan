@@ -1,4 +1,25 @@
 ﻿
+
+javascript语言精粹
+http://download.csdn.net/download/bbjbepzz/5106935
+
+http://download.csdn.net/download/sirzjp/4960390
+
+
+会node.js的资深点的前端人员：
+移动端用h5+cordova
+桌面程序用node-webkit
+web服务使用express
+其他的就用云服务了
+
+
+
+python学习资料
+http://pan.baidu.com/share/home?uk=1462801323#category/type=0
+
+
+
+
 http://wenku.it168.com/d_001202016.shtml
 http://wenku.it168.com/d_000802260.shtml
 
@@ -18,9 +39,4 @@ http://download.csdn.net/detail/hypnos_ff/7295971
 http://www.pudn.com/downloads564/sourcecode/java/detail2323948.html
 
 
-
-
 http://www.google.com/search?q=java+twain+ocr+api&ie=utf-8&oe=utf-8&aq=t&rls=org.debian:en-US:unofficial&client=iceweasel-a
-
-
-
