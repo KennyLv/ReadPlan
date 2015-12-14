@@ -82,6 +82,15 @@ adj.	焦急的, 渴望的, 令人焦虑的, 流露出忧虑的
 [例句]But china 's leaders are anxious.
 但中国的领导人觉得焦虑。
 
+compensate
+英[ˈkɒmpenseɪt]
+美[ˈkɑ:mpenseɪt]
+vt.	抵消; 补偿，赔偿; 报酬;
+vi.	补偿，弥补;
+[例句]MPs say it is crucial that a system is found to compensate for inflation.
+下议院的议员们说关键是要找到一种抵消通货膨胀影响的机制。
+to compensate for loss of accuracy in response
+
 accessory	
 英[əkˈsesəri]
 美[ækˈsɛsəri]
