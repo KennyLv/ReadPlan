@@ -3,5 +3,5 @@ ReadPlan
 
 Add the rss/xml/on line book to my plan
 
-ÓÎÏ·¿ª·¢
+æ¸¸æˆå¼€å‘
 http://gameprogrammingpatterns.com/contents.html
