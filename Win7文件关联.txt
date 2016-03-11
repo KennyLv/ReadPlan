@@ -1,0 +1,7 @@
+﻿解决“Always use the selected program to open this kind of file”不能用
+
+1，Open Regedit.exe
+2，Navigate to the following subkey HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts
+3，Scroll down and find the file extension you are having problems with (for me it was .sln).
+4，Expand it to view its sub keys.
+5，Find a sub key called "UserChoice" and delete it.
