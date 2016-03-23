@@ -167,6 +167,15 @@ vt.	忽视，不顾; [法律]驳回（诉讼）; 
 [例句]Why did banks ignore it? 
 为什么银行会忽视呢？
 
+interoperability
+英['ɪntərɒpərə'bɪlətɪ]
+美['ɪntərɒpərə'bɪlətɪ]
+n.	互用性，协同工作的能力;
+[网络]	互操作; 互用性; 配合动作性;
+[例句]The policy defines the secure protocol and credential passing required for secure interoperability between the TCS and the service.
+策略定义了安全协议及TCS和服务之间的安全互通性所需的信任通道。
+
+
 ignorance	
 英[ˈɪgnərəns]
 美[ˈɪɡnərəns]
@@ -233,5 +242,13 @@ n.	频繁性; [数][物] 频率，次数; 频率分布;
 [例句]Reach and frequency can be better controlled using one interface.
 使用单一界面可以更好的控制到达率和频率。
 
+readiness
+英 [ˈredinəs]
+美 [ˈrɛdɪnɪs]
+n.	准备就绪; 愿意，乐意;
+[网络]	愿意; 准备好的状态; 准备状态;
+[例句]All her luggage was in readiness for the trip.
+她这次旅行的行李已准备就绪。
+[其他]	形近词： headiness shadiness
 
 
