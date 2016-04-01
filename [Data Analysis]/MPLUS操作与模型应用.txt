@@ -1,0 +1,18 @@
+﻿
+MPLUS操作与模型应用
+
+越来越多的心理、教育、管理、经济及社会科学的研究者，使用或想用结构方程模型（Structural Equation Modeling）作为研究的工具，SEM已经逐步成为学术研究的主流研究方法。
+
+MPLUS是目前众多SEM软件中，进步最快的软件，几乎什么统计功能都包含了，例如
+
+探索性因子分析（Exploratory Factor Analysis）、
+验证性因子分析（Confirmatory Factor Analysis）、
+结构方程模型（Structural Equation Modeling）、
+路径分析（Path Analysis）、
+潜在成长模型（Latent Growth Modeling）、
+潜在类别分析（Latent Class Analysis）、
+潜在转换分析（Latent Transition Analysis）、
+项目反应理论（Item Response Theory） 、
+多层次模型（Multilevel Modeling）
+
+等分析。

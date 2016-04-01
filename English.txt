@@ -251,4 +251,21 @@ n.	准备就绪; 愿意，乐意;
 她这次旅行的行李已准备就绪。
 [其他]	形近词： headiness shadiness
 
+preliminary
+英[prɪˈlɪmɪnəri]
+美[prɪˈlɪmɪneri]
+adj.	初步的，初级的; 预备的; 开端的; 序言的;
+n.	预赛; 准备工作; 初步措施; （对学生等的） 预考;
+[例句]This is a preliminary exploration and has some reference value to estimate the shear wave velocity of this area.
+这是一项初步的探索，对初略估计这一地区的剪切波速值有一定的参考意义。
+[其他]	复数：preliminaries 形近词： postliminary infraliminary supraliminary
 
+
+trend
+英[trend]
+美[trɛnd]
+n.	趋向; 走向; 时尚，时髦;
+vi.	趋势; 倾向;
+[例句]What we 're really trying to do is beat the historical trend by getting over it more quickly.
+我们真正要做的就是打破历史常规，缩短解决周期。
+[其他]	第三人称单数：trends 复数：trends 现在分词：trending 过去式：trended 过去分词：trended
