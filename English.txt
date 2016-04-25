@@ -1,4 +1,15 @@
-﻿sponsor	
+﻿
+rationale
+英[ˌræʃəˈnɑ:l]
+美[ˌræʃəˈnæl]
+n.	理论的说明; 基本原理，基础理论; 根据;
+[网络]	依据; 理论; 原因;
+[例句]However, the rationale for such initiatives is not, of course, solely economic.
+然而，这种提议的根据当然并不仅仅是经济方面的。
+[其他]	复数：rationales 形近词： rationals nationals
+
+
+sponsor	
 英[ˈspɒnsə(r)]
 美[ˈspɑ:nsə(r)]
 n.	发起者，主办者, 担保者, 倡议者，提案人, 后援组织
@@ -19,6 +30,15 @@ n.	金融; 财政; 资金; 财源;
 vt.	为…供给资金， 从事金融活动; 赊货给…; 掌握财政;
 [例句]Tom taulli is a noted finance author and blogger.
 汤姆陶利是著名的金融作家和博客撰稿人。
+
+unpredictable
+英[ˌʌnprɪˈdɪktəbl]
+美[ˌʌnprɪˈdɪktəbəl]
+adj.	不可预测的; 无法预言的;
+n.	不可预测的事;
+[网络]	不可预料; 难以预料; 不可预知的;
+[例句]He is utterly unpredictable.
+他是个高深莫测的人。
 
 invest	/ investment
 英[ɪnˈvest]

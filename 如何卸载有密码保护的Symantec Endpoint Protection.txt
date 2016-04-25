@@ -1,0 +1,20 @@
+这个以前我就卸载过，不用密码
+1. 点击“开始”按钮 -> 运行 (或直接： Window徽标键 + R)
+2. 输入 smc -stop. 如果要密码，则打开注册表(Window徽标键 + R; 输入 regedit; 敲回车) ，然后找到 HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC，在右边删除类似于 smc_exit_test 的键，然后再在运行里输入 smc -stop 。
+3. 现在继续到 HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC，在右边删除类似于 smcinstdata 的键。
+4. 现在你可以到 添加删除程序 里无需密码就可以卸载 SEP。 
+5.根据提示重启，然后再在 添加删除程序 里卸载LiveUpdate
+6.大功告成！
+
+
+
+跟踪了一下，发现卸载时启动了两个MSIEXEC进程，其中有一个会检查注册表：
+HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC下的一个键值：SmcInstData，
+删除了SmcInstData子键后，从控制面板直接卸载还是不行，再跟踪发现卸载进程之后还检查了同一个注册表路径下的SmcGuiHasPassword子键。
+所以的卸载方法是：
+1、首先在服务里面设置所有Symantec开头的系统服务为禁止，重启后在命令行运行：smc -stop；（stop需要密码就关掉先）
+2、删除HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC下的SmcInstData子键；（删除后F5刷新下，如果这个子键又自己出现了，说明有Symantec服务没关，检查控制面板-服务中）
+（如果依然有服务不能关闭，先在该条目属性里将其设置为“已禁止”——建议将全部“Symantec服务”设置“已禁止”，然后重启电脑）
+3、修改HKEY_LOCAL_MACHINE\SOFTWARE\Symantec\Symantec Endpoint Protection\SMC下的SmcGuiHasPassword子键为0x1，默认是0x0。注意：如果是WinXP操作系统，可能没有 SmcGuiHasPassword子键，但同路径下应该有一个smc_exit_test或smcexit子键，删掉；
+4、之后从控制面板卸载，进程提示出错，但可以继续，卸载后重启就OK了。
+PS:1、由于卸载的时候没注意，注册表路径和子键名称可能有小出入，回头找台机器核实一下再修正；
