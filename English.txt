@@ -1,4 +1,13 @@
-﻿
+﻿convincing
+英[kənˈvɪnsɪŋ]
+美[kənˈvɪnsɪŋ]
+adj.	有说服力的; 令人相信的; 令人心悦诚服的;
+v.	说服; 使相信(convince的现在分词); 使明白; 使确信;
+[网络]	令人信服的; 有说服力; 令人信服;
+[例句]Scientists say there is no convincing evidence that power lines have anything to do with cancer.
+科学家们说，并没有确凿的证据表明输电线和癌症之间有什么联系。
+[其他]	形近词： evincing
+
 rationale
 英[ˌræʃəˈnɑ:l]
 美[ˌræʃəˈnæl]
@@ -128,6 +137,18 @@ accessory
 n.	附件; 从犯; 配饰（衣服的）; 妇女饰品;
 adj.	附属的; 附加的; 辅助的; 同谋的;
 复数：accessories
+
+proper
+英[ˈprɒpə(r)]
+美[ˈprɑ:pə(r)]
+adj.	适当的，相当的，正当的，应该的，正式的，正常的; 固有的，特有的，独特的; 本来的，真正的，严格意义上的; 〈古〉漂亮的，优美的;
+adv.	〈方〉适当地，好好地，非常，很，完完全全地，彻底地;
+n.	[宗教][常用P-] 特定节日等用的仪式，弥撒（祈祷、礼仪等）书的章节，特赞;
+[网络]	适当的; 合适的; 适当;
+[例句]Two out of five people lack a proper job.
+每五人中有两人没有正当的工作。
+[其他]	复数：propers 形近词： propes groper propel
+双语例句 柯林斯词典 英英释义 百度知道
 
 dismissal	
 英[dɪsˈmɪsl]
