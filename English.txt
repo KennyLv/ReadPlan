@@ -1,4 +1,14 @@
-﻿convincing
+﻿escalate
+英[ˈeskəleɪt]
+美[ˈɛskəˌlet]
+vt.	使逐步升级; 使逐步上升; 乘自动梯上升;
+vi.	逐步扩大; 逐步上升; （战争） 逐步升级; 像乘自动梯上升;
+[网络]	升级; 升高; 升級;
+[例句]Both unions and management fear the dispute could escalate.
+工会和管理层都担心争端会恶化。
+[其他]	第三人称单数：escalates 现在分词：escalating 过去式：escalated 过去分词：escalated 形近词： escalade
+
+convincing
 英[kənˈvɪnsɪŋ]
 美[kənˈvɪnsɪŋ]
 adj.	有说服力的; 令人相信的; 令人心悦诚服的;
