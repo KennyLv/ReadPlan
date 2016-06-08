@@ -1,4 +1,50 @@
-﻿escalate
+﻿
+escalation	
+英 [ˌeskə'leɪʃn]
+美 [ˌeskə'leɪʃn]
+n.	扩大，增加;
+[释疑]escalation是客服行业的术语,是一线客服解决不了的疑难问题就会escalate给专家座席或者叫二线客服,由他们来进行专业的处理。
+[例句]The US military wants to avoid the graduated escalation that marked the Vietnam War.
+美国军方希望避免出现类似于越南战争那样逐步升级的态势。
+[其他]	复数：escalations 形近词： escalating exhalation excalation
+
+
+
+glamour
+英[ˈglæmə(r)]
+美[ˈɡlæmɚ]
+n.	魅力; 魔力; 诱惑力; 迷人的美;
+v.	迷惑; 迷住;
+[例句]She is a perfect incarnation of glamour.
+她是魅力的完美化身。
+[其他]	复数：glamours 形近词： enamour clamour
+
+
+ninja
+英[ˈnɪndʒə]
+美['nɪndʒə]
+n.	（受过偷窃技术专门训练被雇作间谍或刺客的） 日本武士;
+[例句]I was a glamour ninja.
+我是一个忍者的魅力。
+
+virtually
+英[ˈvɜ:tʃuəli]
+美[ˈvɜ:rtʃuəli]
+adv.	无形; 无形中; 实际上，实质上，事实上，几乎;
+[例句]Virtually all cooking was done over coal-fired ranges.
+差不多所有的烹饪都是在燃煤灶上进行的。
+
+
+triage
+英[ˈtri:ɑ:ʒ]
+美[tri:ˈɑ:ʒ]
+n.	治疗类选法（根据紧迫性和救活的可能性等在战场上决定哪些人优先治疗的方法）;
+[例句]Who has been assigned the latest change request introduced in the triage meeting?
+谁分配到了由分类会议中引出的最近的变更请求？
+[其他]	形近词： triabe driage
+双语例句 柯林斯词典 英英释义 
+
+escalate
 英[ˈeskəleɪt]
 美[ˈɛskəˌlet]
 vt.	使逐步升级; 使逐步上升; 乘自动梯上升;
