@@ -1,4 +1,58 @@
-﻿
+﻿avalanche	
+英[ˈævəlɑ:nʃ]
+美[ˈævəlæntʃ]
+n.	雪崩;
+vi.	崩塌;
+[例句]The newcomer was greeted with an avalanche of publicity.
+新来者受到了广泛的关注。
+[其他]	复数：avalanches
+
+cryptography
+英 [krɪpˈtɒgrəfi]
+美 [krɪpˈɑ:grəfi]
+n.	密码使用法，密码系统，密码术;
+[例句]Cryptography: Key and certificate management.
+加密：密钥和证书管理。
+[其他]	形近词： glyptography sorptography
+
+
+
+impact to date 影响至今
+If it happens, the impact on confidence will be profound outweighing all the packages put on the table to date. 
+这种局面的出现，将对信心产生深远的影响胜过迄今出台的所有刺激方案。
+
+
+thrust
+英 [θrʌst]
+美 [θrʌst]
+vt.	猛推; 逼迫; 强行推入; 延伸;
+n.	推力; 刺; [军] 突击; [地] 逆断层;
+vi.	插入; 用力向某人刺去; 猛然或用力推;
+[例句]They thrust him into the back of a jeep.
+他们把他硬塞进吉普车后座。
+[其他]	第三人称单数：thrusts 现在分词：thrusting 过去式：thrust 过去分词：thrust 形近词： thrush
+
+
+parallel
+英[ˈpærəlel]
+美[ˈpærəˌlɛl]
+adj.	平行的; 相同的，类似的; [电] 并联的; [计] 并行的;
+adv.	平行地，并列地;
+n.	平行线（面）; 相似物; 类比; 纬线;
+[例句]Readers familiar with English history will find a vague parallel to the suppression of the monasteries.
+熟悉英国历史的读者会发现这与镇压修道院略有相似之处。
+[其他]	第三人称单数：parallels 复数：parallels 现在分词：parallelling 过去式：parallelled 过去分词：parallelled 形近词： parallex parallax
+
+
+telemetry
+英[təˈlemətri]
+美[təˈlɛmɪtri]
+n.	遥测; 遥感勘测，自动测量记录传导; 测远术;
+[例句]This paper introduces a kind of EEG Telemetry and Tele monitoring system.
+介绍了一种脑电实时遥测与监护系统的研制。
+[其他]	形近词： bimetry isometry symmetry
+
+
 escalation	
 英 [ˌeskə'leɪʃn]
 美 [ˌeskə'leɪʃn]
