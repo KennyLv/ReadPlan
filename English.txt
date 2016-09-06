@@ -7,6 +7,48 @@ vi.	崩塌;
 新来者受到了广泛的关注。
 [其他]	复数：avalanches
 
+dedication
+英[ˌdedɪˈkeɪʃn]
+美[ˌdɛdɪˈkeʃən]
+n.	奉献; 献身精神; 教堂的)献堂礼; （书等作品上的） 题词;
+[例句]They had faced one difficulty after another with bravery and dedication
+他们以无畏和无私奉献的精神迎接了一个又一个的困难。
+[其他]	复数：dedications
+
+commitment
+英[kəˈmɪtmənt]
+美[kəˈmɪtmənt]
+n.	承诺，许诺; 委任，委托; 致力，献身; 承担义务;
+[例句]I've got a lot of commitments
+我承担了很多责任。
+[其他]	复数：commitments
+
+fantastic
+英[fænˈtæstɪk]
+美[fænˈtæstɪk]
+adj.	极好的; 很大的; 怪诞的; 不切实际的;
+[例句]I have a fantastic social life
+我的社交生活丰富多彩。
+
+
+persuade
+英[pəˈsweɪd]
+美[pərˈsweɪd]
+vt.	说服; 劝说; 使相信; 使信服;
+[例句]My husband persuaded me to come
+我丈夫说服我前来。
+[其他]	第三人称单数：persuades 现在分词：persuading 过去式：persuaded 过去分词：persuaded
+
+
+escalation	
+英[ˌeskə'leɪʃn]
+美[ˌeskə'leɪʃn]
+n.	扩大，增加;
+[例句]The US military wants to avoid the graduated escalation that marked the Vietnam War.
+美国军方希望避免出现类似于越南战争那样逐步升级的态势。
+[其他]	复数：escalations
+
+
 cryptography
 英 [krɪpˈtɒgrəfi]
 美 [krɪpˈɑ:grəfi]

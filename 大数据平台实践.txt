@@ -1,0 +1,33 @@
+﻿第一周
+
+  《Linux实战》 《Java基础》 《Git的基本使用》
+第二周
+
+  《Hadoop大数据平台》 《Hadoop在线示例实践体验》
+第三周
+
+  《项目陈述及初始需求分析》 《Hadoop API及问题排查方法》
+第四、五周
+
+  《Flume概述及API》 《Kafka概述及API》 《Hive进阶》 《HBase原理介绍》 《HBase进阶》
+第六周
+
+  《数据分析实训项目描述、解题思路分解》
+第七周
+
+  《MySQL概述》
+第八周
+
+  《Scala基础》 《Spark 1.X 大数据平台》 《Spark基础与编程模型》
+第九周
+
+  《Spark各部署模式的原理及部署方法》 《Spark Streaming运行原理与实践》 《Spark内核剖析》
+第十周
+
+  《Kafka与Spark Streaming整合方法》 《Spark SQL & DataFrame》
+第十一周
+
+  《Hadoop监控》 《Nagios》《Log4j》
+第十二周
+
+  《数据结构与算法面试宝典》 项目验收

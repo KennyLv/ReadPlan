@@ -1,0 +1,40 @@
+课程介绍：
+1、什么是Knockout.JS
+Knockout.js简介：
+Knockout.js是一个基于JavaScript开发的轻量级MVVM（Model-View-ViewModel）框架，
+简称ko。它的主要特点特性包括（译自Knockout.js官方网站）：
+特点：
+1.声明式绑定 - 通过简明易读的数据绑定(data-bind)语法将DOM元素和模型数据(model data)关联在一起
+2.自动UI刷新 - UI界面会根据模型数据的改变自动更新
+3.依赖跟踪 - 在模型数据间建立隐式依赖关系链
+4.模板 - 以模型数据函数为基础，快速生成复杂可嵌套的UI
+特性：
+1.免费，开源
+2.纯JavaScript框架
+3.轻量级，最终压缩后只有16kb
+4.不依赖其他任何产品
+5.支持所有主流浏览器，IE6+，FireFox2+，Chrome，Opera，Safari (包括移动设备)
+6.完整的API文档支持  
+
+课程大纲：
+一、入门篇
+1、knockout.js介绍
+2、Observables
+3、计算属性Computed Observable
+4、监控数组（Observable Arrays）
+5、使用内置绑定
+5.1、控制文本和外观
+5.2、绑定逻辑控制
+5.3、表单域绑定
+
+二、进阶篇
+1、绑定模板语法
+1.1、数据绑定
+1.2、绑定上下文
+1.3、模板绑定
+
+三、高级篇
+1、创建自定义绑定
+2、控制子绑定
+3、自定义绑定综合示例
+4、进一步的技术
